@@ -1,10 +1,110 @@
+
 <!DOCTYPE html> 
 <html> 
 <head> 
-<meta charset="utf-8>
-<meta name="viewport" content="width=device-width, initial scale=1">
-<link rel="stylesheets" href="styles.css">                                                          
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial scale=1">                                     
 <title> Assignment solution for Module 2 </title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        h1 {
+    text-align: center;
+    font-family: Cooper Black, Calibri, serif;
+    color: darkcyan;
+    text-transform: uppercase;
+            font-size: 175%
+}
+        p {
+            
+           font-family: Cocktail Script, Times New Roman, serif;
+            color: darkblue;
+            background-color: paleturquoise;
+            font-weight: bold;
+            font-size: 20px; 
+            margin: 15px; 
+            border: 5px solid black;
+            padding: 15px;
+            
+        }
+        .title1 {
+            font-size: 125%;
+            background-color: fuchsia;
+            font-family: Cooper Black, Calibri, serif; 
+             border: 3px solid black;
+            margin: 15px;
+            float: right;
+            width: 30%;
+            text-align: center;
+            
+        }
+        .title2 {
+            font-size: 125%;
+            background-color: blueviolet;
+            font-family: Cooper Black, Calibri, serif; 
+             border: 3px solid black;
+            margin: 15px;
+            float: right;
+            width: 30%;
+            text-align: center;
+        }
+        
+        .title3 {
+            font-size: 125%;
+            background-color: cornflowerblue;
+            font-family: Cooper Black, Calibri, serif; 
+             border: 3px solid black;
+        margin: 15px;
+            float: right;
+            width: 30%;
+            text-align: center;
+        }
+        @media (min-width: 992px) {
+              .col-lg-4 {
+                  float: left;
+                  width: 33.33%;
+                  
+                }
+            }
+        @media (min-width: 768px) and (max-width: 991px) {
+            .col-md-6 {
+                float: left;
+                width: 50%;
+            }
+            .col-md-12 {
+                width: 100%;
+            }
+        }
+        @media (max-width: 767px) {
+            .col-sm-12 {
+                float: left;
+                width: 100%;
+            }
+            
+        }
+        #row {
+            width: 100%;
+            
+        }
+    
+    </style>
 </head>
 <body>
-<h1> Our Menu </h1>                                                
+<h1> Our Menu </h1> 
+ <div id="row">
+   <div class="col-lg-4 col-md-6 col-sm-12">
+       <span class="title1">Chicken </span>
+         <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+   </div>
+   <div class="col-lg-4 col-md-6 col-sm-12">
+       <span class="title2">Beef </span>
+         <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+   </div>
+   <div class="col-lg-4 col-md-6 col-md-12 col-sm-12">
+       <span class="title3">Sushi </span>
+         <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+   </div>
+  </div>
+  </body>
+</html>
