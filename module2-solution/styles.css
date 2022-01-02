@@ -1,61 +1,45 @@
-
-
-        * {
-            box-sizing: border-box;
-        }
-        h1 {
+* {
+     box-sizing: border-box;
+  }  
+h1 {
     text-align: center;
     font-family: Cooper Black, Calibri, serif;
     color: darkcyan;
     text-transform: uppercase;
-            font-size: 175%
+    font-size: 175%
 }
-        p {
-            
-           font-family: Cocktail Script, Times New Roman, serif;
-            color: darkblue;
-            background-color: paleturquoise;
-            font-weight: bold;
-            font-size: 20px; 
-            margin: 15px; 
-            border: 5px solid black;
-            padding: 15px;
-            position: relative;
-            
-        }
+p {
+        
+    font-family: Cocktail Script, Times New Roman, serif;
+    color: darkblue;
+    background-color: paleturquoise;
+    font-weight: bold;
+    font-size: 20px; 
+    margin: 15px; 
+    border: 5px solid black;
+    padding: 15px;
+ } 
+span {
+    float: right;
+    font-size: 125%;
+    font-family: Cooper Black, Calibri, serif; 
+    border: 3px solid black;
+     margin: 15px;
+     float: right;
+    width: 30%;
+    text-align: center;
+    position: relative;
+
+}
         .title1 {
-            font-size: 125%;
-            background-color: fuchsia;
-            font-family: Cooper Black, Calibri, serif; 
-             border: 3px solid black;
-            margin: 15px;
-            float: right;
-            width: 30%;
-            text-align: center;
-            position: relative;
+            background-color: fuchsia;   
         }
         .title2 {
-            font-size: 125%;
-            background-color: blueviolet;
-            font-family: Cooper Black, Calibri, serif; 
-             border: 3px solid black;
-            margin: 15px;
-            float: right;
-            width: 30%;
-            text-align: center;
-            position: relative;
+            background-color: blueviolet;   
         }
         
         .title3 {
-            font-size: 125%;
             background-color: cornflowerblue;
-            font-family: Cooper Black, Calibri, serif; 
-             border: 3px solid black;
-        margin: 15px;
-            float: right;
-            width: 30%;
-            text-align: center;
-            position: relative;
         }
         @media (min-width: 992px) {
               .col-lg-4 {
@@ -84,5 +68,4 @@
             width: 100%;
             
         }
-    
  
