@@ -20,6 +20,7 @@
             margin: 15px; 
             border: 5px solid black;
             padding: 15px;
+            position: relative;
             
         }
         .title1 {
@@ -31,7 +32,7 @@
             float: right;
             width: 30%;
             text-align: center;
-            
+            position: relative;
         }
         .title2 {
             font-size: 125%;
@@ -42,6 +43,7 @@
             float: right;
             width: 30%;
             text-align: center;
+            position: relative;
         }
         
         .title3 {
@@ -53,6 +55,7 @@
             float: right;
             width: 30%;
             text-align: center;
+            position: relative;
         }
         @media (min-width: 992px) {
               .col-lg-4 {
