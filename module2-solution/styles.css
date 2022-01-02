@@ -1,1 +1,85 @@
 
+
+        * {
+            box-sizing: border-box;
+        }
+        h1 {
+    text-align: center;
+    font-family: Cooper Black, Calibri, serif;
+    color: darkcyan;
+    text-transform: uppercase;
+            font-size: 175%
+}
+        p {
+            
+           font-family: Cocktail Script, Times New Roman, serif;
+            color: darkblue;
+            background-color: paleturquoise;
+            font-weight: bold;
+            font-size: 20px; 
+            margin: 15px; 
+            border: 5px solid black;
+            padding: 15px;
+            
+        }
+        .title1 {
+            font-size: 125%;
+            background-color: fuchsia;
+            font-family: Cooper Black, Calibri, serif; 
+             border: 3px solid black;
+            margin: 15px;
+            float: right;
+            width: 30%;
+            text-align: center;
+            
+        }
+        .title2 {
+            font-size: 125%;
+            background-color: blueviolet;
+            font-family: Cooper Black, Calibri, serif; 
+             border: 3px solid black;
+            margin: 15px;
+            float: right;
+            width: 30%;
+            text-align: center;
+        }
+        
+        .title3 {
+            font-size: 125%;
+            background-color: cornflowerblue;
+            font-family: Cooper Black, Calibri, serif; 
+             border: 3px solid black;
+        margin: 15px;
+            float: right;
+            width: 30%;
+            text-align: center;
+        }
+        @media (min-width: 992px) {
+              .col-lg-4 {
+                  float: left;
+                  width: 33.33%;
+                  
+                }
+            }
+        @media (min-width: 768px) and (max-width: 991px) {
+            .col-md-6 {
+                float: left;
+                width: 50%;
+            }
+            .col-md-12 {
+                width: 100%;
+            }
+        }
+        @media (max-width: 767px) {
+            .col-sm-12 {
+                float: left;
+                width: 100%;
+            }
+            
+        }
+        #row {
+            width: 100%;
+            
+        }
+    
+ 
