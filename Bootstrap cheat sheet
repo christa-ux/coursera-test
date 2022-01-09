@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  
+  <body>
+  <!-- navbar -->
+  <nav class="navbar-inverse"> //to change the color of the navigation bar from white to black.
+  <!-- Typography -->
+  <div class="container"> //the class automatically pushes the text from the edges of the browser, and it is responsive, depending on the screen size.
+    <h1 class="page-header">Hello, world!<small> hi </small></h1> //the class gives a border to separate the heading from the rest of the page. the small tag makes the text looks smaller like a subtext.  
+    <p class="lead"> haha </p> //the class is used to make the text stand out
+    <p> hello <mark>world </mark></p> //the mark tag is used to highlight.
+    <p> hello <del>world </del></p> //the del tag is used to overstrike.
+    <p> hello <u>world </u></p> //the u tag is used to underline.
+    
+    <!-- Alignment and transformation -->
+    <p class="text-left">..</p>
+    <p class="text-right">..</p>
+    <p class="text-justify">..</p>
+    <p class="text-center">..</p>
+    <p class="text-nowrap">..</p>
+    <p class="text-lowercase">..</p>
+    <p class="text-uppercase">..</p>
+    <p class="text-capitalize">..</p>
+   
+   <!--quick floats-->
+   <div class="pull-left">..</div>
+   <div class="pull-right">..</div>
+   
+   <!-- clear float -->
+   <div class="clearfix">..</div> //if we float something, we should clear it so everything goes back to normal, so if we're putting a line break, and it came over a text, we should use this class to fix the problem.
+   
+   <!-- blockquote -->
+   <blockquote class="blockquote"> <p> lorem epsum </p><footer> quote by <cite title="John Doe">John Doe </cite></footer> </blockquote>
+    <blockquote class="blockquote-reverse"> <p> lorem epsum </p><footer> quote by <cite title="John Doe">John Doe </cite></footer> </blockquote> //this class simply reverses the way the quote is written, and the author is on the right.
+ 
+  <!--lists-->
+  <ul class="list-unstyled"> //to remove the bullet points
+  <li>..</li>
+  <li>..</li>
+  </ul>
+  <ul class="list-inline"> //to remove the bullet points and write the items on the same line
+  <li>..</li>
+  <li>..</li>
+  </ul>
+  
+  <!-- code -->
+  <code>&lt;h1&gt;heading test&lt;/h1&gt;</code> //&lt; is the opening tag, and &gt; is the closing tag , and the text will have a font that looks like a code. 
+  change directory with <kbd> cd </kbd> //the kbd tag makes the text look like a keyboard key. 
+  
+  <!-- contextual color -->
+  <p class="text-primary">..</p> //blue color
+    <p class="text-success">..</p> //green color
+    <p class="text-info">..</p> //light blue color
+    <p class="text-warning">..</p> //yellow color
+    <p class="text-danger">..</p> //red color
+    <p class="text-muted">..</p> //light gray color
+   
+   <!-- contextual background color -->
+   <p class="bg-primary">..</p> //blue background color
+    <p class="bg-success">..</p> //green background color
+    <p class="bg-info">..</p> //light blue background color
+    <p class="bg-warning">..</p> //yellow background color
+    <p class="bg-danger">..</p> //red background color
+   
+  <!-- buttons --> 
+  <button class="btn btn-default">..</button>
+  <a href="#" class="btn btn-default" role="button">..</a>
+  <input type="submit" class="btn btn-default" value="submit">
+  //these 3 lines of code have look the same on the browser. it's 3 identical buttons next to each other.
+  
+  <!--contextual buttons -->
+   <button class="btn btn-default">..</button> //white button
+    <button class="btn btn-primary">..</button> //blue button
+    <button class="btn btn-success">..</button> //green button
+     <button class="btn btn-info">..</button> //light blue button
+      <button class="btn btn-warning">..</button> //yellow button
+       <button class="btn btn-danger">..</button> //red button
+        <button class="btn btn-link">..</button> //here the button is actually a link. the button doesn't have a border.
+   
+   <!--button sizes-->
+    <button class="btn btn-default btn-lg">..</button> //large button
+     <button class="btn btn-default">..</button> //regular button
+      <button class="btn btn-default btn-sm">..</button> //small button
+       <button class="btn btn-default btn-xs">..</button> //extra small button
+        <button class="btn btn-default disabled="disabled">..</button> //we can't click on the button.
+        
+     <!-- forms -->
+     <form>
+     <div class="form-group">
+     <label>..</label>
+     <input type="text" class="form-control" placeholder="Add name"></div> //the input type is regular text. if we did not write the class, the form would be on the same line as the label.
+     <input type="email" class="form-control" placeholder="Add email"></div> //the input type is an email
+     <textarea type="message" class="form-control" placeholder="Add name"></textarea></div> //the input type is a message.
+     <select class="form-control">
+     <option value="male"></option>
+     <option value="female"></option>
+     <option value="other"></option> </select> </div> //this form is to choose the gender.
+     <input type="file">
+     <p class="help-block">..</p></div></form> //this form is to upload a file 
+     <div class="checkbox">
+     <label>..<input type="checkbox"></label> //this form is a checkbox
+     <button type=submit" class="btn btn-default">..</button></form>//this form is a submit button.
+     //we can also do the forms inline using the <form class="form-inline">
+     
+     <!-- tables -->
+     <div class="container">
+     <table class="table table-striped table-bordered table-hover table-condensed">
+     <tr>
+     <th>..</th>
+     <th>..</th> //titles of the columns
+     </tr>
+     <tr class="danger> //if we want the row to be red
+     <td>..</td>
+     <td>..</td>
+     </tr>
+      <tr>
+     <td>..</td>
+     <td>..</td>
+     </tr>
+     //the table class makes the table look better, the table striped makes each 2 rows the same color, the table-bordered separates the columns, the table-hover highlights a row when hovering, and table-condensed makes the table smaller but it still looks nice. 
+   </div>
+  
+  <!-- list group -->
+   <div class="container">
+   <ul class="list-group">
+   <li class="list-group-item">..</li>
+   <li class="list-group-item">..</li>
+   <li class="list-group-item">..</li> //the list items will appear in a table
+   </ul>
+   <ul class="list-group">
+   <a href="#" class="list-group-item active">..</li> //the active class makes the row blue when we're in its respective place. 
+  <a href="#" class="list-group-item list-group-item-succes">..</li> //here the row is blue when we're in the page of the respective row
+   <a href="#" class="list-group-item">..</li> //the list items will appear in a table, and each item is a link
+   </ul>
+   </div>
+   
+   <!-- panels -->
+   <div class="panel panel-default">
+   <div class="panel-heading">
+   <h1 class="panel-title">..</h1>
+   </div>
+   <div class="panel-body">..</div>
+   <div class="panel-footer">..</div>
+   </div>
+   
+   <!-- wells -->
+   <div class="well">..</div>
+   <div class="well well-lg">..</div> //we need to have both classes
+   <div class="well well-sm">..</div>
+   
+   <!-- alerts -->
+   <div class="alert alert-success" role="alert">..</div> //green alert
+   <div class="alert alert-info" role="alert">..</div> //light blue alert
+   <div class="alert alert-warning">..</div> //yellow alert
+   <div class="alert alert-danger">..</div> //red alert
+   <div class="alert alert-warning alert-dismissable" role="alert"> //red alert that can be closed when pressing the x button. 
+   <button type="button" class="close" data-dismiss="alert"><span>&times;..</span></div>
+   
+   <!-- porgress bars-->
+   <div class="progress">
+   <div class="progress-bar progress-bar-success progress-bar-striped acrive" styles="width:50%;"></div></div></div> //here we have a green striped progress bar that half filled. 
+  
+  <span class="label label-default"></span> <h1> Hello <span class="label label-primary"></span></h1> //here this is a blue label that is bigger than a regular label since it's inside an h1 tag.
+  
+ <!-- badges -->
+ <a href="#"> ..<span class="badge">..</span></a> 
+ <button class="btn btn-primary" type="button"..<span class="badge">..</span></button></div> //the badges are more likely a title with a number like the inbox or messages. 
+ 
+ <!-- images -->
+ <div class="container">
+ <img class="thumbnail" arc="https://..."> //regular image
+ <img class="img-rounded" arc="https://..."> //rounded corners
+ <img class="img-circle" arc="https://..">  //rounded image
+ 
+ <!--grid system -->
+ <div class="container"
+ <div class="row">
+ <div class="col-md-8"> //the page is divided into a paragraph taking 8/12 and another paragraph taking 4/12
+ <p>..</p>
+ </div>
+ <div class="col-md-4">
+ <p>..</p>
+ </div>
+ </div>
+ </div>
+ 
+ </body>
+</html>
