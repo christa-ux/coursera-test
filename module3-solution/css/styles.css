@@ -1,1 +1,46 @@
+h2 {
+    font-family: Cooper Black, sans-serif;
+    text-align: center;
+    font-size: 25px;
+    color: darkslateblue;
+}
+.container {
+    height: 1000px;
+    background-color: lightsteelblue;
+    font-size: 15px;
+    font-family: Calibri sans-serif;
+    font-weight: bold;
+
+}
+h4 {
+    text-align: center;
+    font-family: Cooper Black, sans-serif;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: darkgreen;
+}
+
+li {
+    text-align: center;
+    font-size: 15px;
+    background-color: palevioletred;
+}
+
+.navbar-brand {
+   font-size: 35px;
+    font-family: Cooper Black, sans-serif;
+   float: none; 
+}
+button {
+    float: right;
+}
+    
+.lorem {
+    font-weight:bold;
+    color: crimson;
+    font-family: cursive, sans-serif;
+    text-transform: uppercase;
+    font-style: italic;
+}
 
